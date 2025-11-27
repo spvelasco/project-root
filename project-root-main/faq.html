@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>FAQ</title>
+<style>
+body { background-color: #000814; color: white; font-family: 'Times New Roman', serif; margin: 0; font-size: 30px}
+nav { background-color: #001d3d; padding: 15px; display: flex; gap: 20px; }
+nav a { color: white; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+.container { padding: 40px; }
+.accordion { background-color: #001d3d; padding: 15px; margin-bottom: 10px; cursor: pointer; border: none; color: white; font-size: 18px; text-align: left; width: 100%; }
+.panel { display: none; padding: 15px; background-color: #000814; border-left: 3px solid #003566; }
+</style>
+<script>
+function togglePanel(i){
+const panel=document.getElementById('panel'+i);
+panel.style.display = panel.style.display==='block' ? 'none' : 'block';
+}
+</script>
+</head>
+<body>
+<nav>
+<a href="index.html">Home</a>
+<a href="faq.html">FAQ</a>
+<a href="ethics.html">Ethical AI</a>
+<a href="article.html">Analogy</a>
+</nav>
+<div class="container">
+<h1>Frequently Asked Questions About Generative AI</h1>
+
+<p>The world is experiencing a constant advancement in technology. But even in this age, Generative AI is seen as nothing short of revolutionary. Starting from the late 2022 and booming throughout the year 2023, it continues to improve fast-paced with companies worldwide finding more ways to bring innovation. In this section, answers for frequently asked questions about Generative AI will be presented to further improve our understanding of it:</p>
+
+<button class="accordion" onclick="togglePanel(1)">What is Generative AI?</button>
+<div class="panel" id="panel1">
+<p>Gen AI, short for generative AI, is a class of machine learning (ML) model that can learn from the data it was provided to enhance or create new content. The content it generates can be text, images, video, audio, or even software code based on the user’s prompt or request. Google (2023) describes one method of their learning as, for instance learning about what cats look like, observation of many different pictures of cats and recognizing “patterns” or characteristics consistent with a cat.</p>
+</div>
+
+
+<button class="accordion" onclick="togglePanel(2)">How does it work?</button>
+<div class="panel" id="panel2">
+<p>Most modern Generative AI works by using foundation models, and are considered as neither information databases nor deterministic information retrieval systems (Google, 2023). They use a pre-trained foundation model’s parameters that store learnings in complex patterns and relationships within data to create new content. This essentially means that Gen AI does not simply copy and return existing data when prompted, instead it produces new content using what they learned from data that is already there. </p>
+</div>
+
+
+<button class="accordion" onclick="togglePanel(3)">Examples of Generative AI tools</button>
+<div class="panel" id="panel3">
+<p>Examples of Generative AI tools are some older models such as ELIZA, Deep Dream, and Siri, and newer models that include ChatGPT and Claude (Text Generation), DALL-E and Midjourney (Image), Synthesia and Sora (Video/Audio), Grammarly (Text Assistance), and Github Copilot (Coding).</p>
+</div>
+
+
+<button class="accordion" onclick="togglePanel(4)">What can GenAI do?</button>
+<div class="panel" id="panel4">
+<p>With one prompt, Generative AI can immediately produce wanted content. They can assist in writing, serve as conversational assistant tools, generate images, audios, and videos, and also produce lines of code. This benefit allows professionals to write reports, make clean outlines, and summarize key data right away while students can create quizzes based on learning materials, receive criticism on their work for improvements, and receive comprehensive data about new topics. In addition, some Gen AI are specially trained to perform certain tasks such as generating images or video, allowing them to produce higher-quality work than general-purpose AI tools.</p>
+</div>
+
+
+<button class="accordion" onclick="togglePanel(5)">Limitations and risks</button>
+<div class="panel" id="panel5">
+<p>Foundation models which most modern Generative AI use are not easily created. IBM (2024) revealed that making foundation models is compute-intensive, time-consuming and expensive: it requires thousands of clustered graphics processing units (GPUs) and weeks of processing, all of which costs millions of dollars. They undergo training that costs a huge amount of resources such as time and money. It is limited by the size of the database it was trained on, Furthermore, the use of Gen AI risks ethical issues such as bias, misuse, or plagiarized content. ChatGPT, for example, generates results that often do not properly cite its sources when it comes to generating texts. When left unnoticed, these issues can threaten the privacy, safety, and security of users online.</p>
+</div>
+
+<button class="accordion" onclick="togglePanel(6)">What is Machine Learning?</button>
+<div class="panel" id="panel6">
+<p>It is a type of artificial intelligence (AI) capable of learning, that is, recognizing patterns from example data, without being directly programmed to do so. Google (2023) further explains that machine learning algorithms are able to detect patterns and learn how to make predictions and recommendations by processing data and experiences, rather than by receiving explicit programming instruction. </p>
+</div>
+
+<button class="accordion" onclick="togglePanel(7)">What are Foundation Models?</button>
+<div class="panel" id="panel7">
+<p>IBM (2024) explains foundation models as artificial intelligence (AI) models which were trained using a huge dataset and can perform general tasks. Training these models include evaluating millions of “fill in the blank” exercises where the algorithm must predict the next element to appear in a sequence, and continuously adjusting itself to minimize the difference between prediction and the correct data. Since foundation models are generalists, they are further trained or adjusted depending on the purpose they will be used for.</p>
+</div>
+
+<button class="accordion" onclick="togglePanel(8)">References</button>
+<div class="panel" id="panel8">
+<p>Caballar, R. (2024, October 11). Foundation Models. Ibm.com. https://www.ibm.com/think/topics/foundation-models
+<br>Coursera. (2025). The Future of Learning and Work: How GenAI is Creating More Equal Opportunity. https://www.coursera.org/articles/anthropic-claude 
+<br>Fullstack Academy. (2025). 12 Top-Rated Generative AI Tools in 2025: Your Expert Guide. https://www.fullstackacademy.com/blog/best-generative-ai-tools
+<br>Google. (2023, May). Generative AI FAQs. https://ai.google/static/documents/google-about-generative-ai.pdf 
+<br>Grammarly. (2024, March 15). Generative AI Tools and Capabilities. Understanding Generative AI Tools and Platforms. https://www.grammarly.com/blog/ai/generative-ai-tools/ 
+<br>IBM. (2024, March 22). Generative AI. Ibm.com. https://www.ibm.com/think/topics/generative-ai?utm_source=chatgpt.com 
+<br>Lawton, G. (2023). What is generative AI? Everything you need to know. Enterprise AI; TechTarget. https://www.techtarget.com/searchenterpriseai/definition/generative-AI 
+<br>Liu, Y., Wu, S., Ruan, M., Chen, S., & Xie, X.-Y. (2025, May 13). Research: Gen AI Makes People More Productive—and Less Motivated. Harvard Business Review. https://hbr.org/2025/05/research-gen-ai-makes-people-more-productive-and-less-motivated
+<br>McKinsey & Company. (2024, April 2). What Is Generative AI? McKinsey & Company. https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-generative-ai 
+<br>OpenAI. (2022, November 30). Introducing ChatGPT. https://openai.com/index/chatgpt/ 
+</p>
+</div>
+
+</div>
+</body>
+</html>

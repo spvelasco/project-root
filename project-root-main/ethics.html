@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Ethical AI</title>
+<style>
+body { background-color: #000814; color: white; font-family: 'Times New Roman', serif; margin: 0; font-size: 30px}
+nav { background-color: #001d3d; padding: 15px; display: flex; gap: 20px; }
+nav a { color: white; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+.container { padding: 40px; }
+.accordion { background-color: #001d3d; padding: 15px; margin-bottom: 10px; cursor: pointer; border: none; color: white; font-size: 18px; text-align: left; width: 100%; }
+.panel { display: none; padding: 15px; background-color: #000814; border-left: 3px solid #003566; }
+</style>
+<script>
+function toggleEthics(i){
+const panel=document.getElementById('ethic'+i);
+panel.style.display = panel.style.display==='block' ? 'none' : 'block';
+}
+</script>
+</head>
+<body>
+<nav>
+<a href="index.html">Home</a>
+<a href="faq.html">FAQ</a>
+<a href="ethics.html">Ethical AI</a>
+<a href="article.html">Analogy</a>
+</nav>
+<div class="container">
+<h1>Ethical Use of AI</h1>
+
+<p> In the current state of Generative AI, various aspects of society have started to change and adapt its integration. The latest annual McKinsey Global Survey shows that one-third of survey respondents use Gen AI in at least one business function in their organizations. In the context of academics, it is especially important to consider how Generative AI is being used to maintain honesty and integrity. It must be utilized carefully, ethically, and responsibly just as any tool. In this section, various issues about the use of AI will be discussed and what guidelines should be implemented:</p>
+
+<button class="accordion" onclick="toggleEthics(1)">Responsible Use in the Academe</button>
+<div class="panel" id="ethic1">
+<p>AI should assist learning, not replace it. Students must review and understand generated content before using it.</p>
+</div>
+
+<button class="accordion" onclick="toggleEthics(2)">Avoiding Plagiarism and Misuse</button>
+<div class="panel" id="ethic2">
+<p>Users must verify sources and ensure the originality of their work. Some AI tools generate uncited or inaccurate information.</p>
+</div>
+
+<button class="accordion" onclick="toggleEthics(3)">Accuracy and Verification</button>
+<div class="panel" id="ethic3">
+<p>AI may hallucinate or produce incorrect information. Always cross-check facts with reliable sources.</p>
+</div>
+
+<button class="accordion" onclick="toggleEthics(4)">Bias and Fairness</button>
+<div class="panel" id="ethic4">
+<p>AI may reflect biases from its training data. Users must be vigilant and critical when reviewing generated outputs.</p>
+</div>
+
+<button class="accordion" onclick="toggleEthics(5)">Recommended Guidelines</button>
+<div class="panel" id="ethic5">
+<p>In using AI, its sources must be verified before using their output as a basis for information. It is wrong to rely fully on AI, so the user should at least understand what the generated content is about. Using this knowledge, they can carefully integrate new information to their own academic work. Researching online must also be practiced to make sure the prompted topics are viewed from multiple perspectives. More importantly, AI should be treated as an assistance tool, not regarded as an absolute do-all fix. </p>
+</div>
+
+<button class="accordion" onclick="toggleEthics(6)">References</button>
+<div class="panel" id="ethic6">
+<p>Administrator. (2024, September 12). 9 Benefits of Artificial Intelligence (AI) in 2025. UC News. https://www.online.uc.edu/content/uc/news/articles/uco/artificial-intelligence-ai-benefits.html 
+<br>Clifford, B. (2023). Preventing AI Misuse: Current Techniques | GovAI. Governance.ai. https://www.governance.ai/analysis/preventing-ai-misuse-current-techniques 
+<br>Ethical Use Cases of AI in Academic Writing: A 2025 Guide for Students and Researchers. (2025). Thesify.ai. https://www.thesify.ai/blog/ethical-use-cases-of-ai-in-academic-writing-a-2025-guide-for-students-and-researchers 
+<br>GeeksforGeeks. (2024, April 24). Fairness and Bias in Artificial Intelligence. (section) https://www.geeksforgeeks.org/artificial-intelligence/fairness-and-bias-in-artificial-intelligence/
+<br>IBM. (2023, September 1). What Are AI Hallucinations? https://www.ibm.com/think/topics/ai-hallucinations 
+<br>‌Marwala, T. (2024, December 2). AI Is Not a High-Precision Technology, and This Has Profound Implications for the World of Work. United Nations University. https://unu.edu/article/ai-not-high-precision-technology-and-has-profound-implications-world-work
+</p>
+</div>
+
+</div>
+</body>
+</html>
