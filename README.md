@@ -6,9 +6,9 @@ What I need to add here:
 
 2. Short overview - My website is pretty straightforward. It consists of 4 pages (One for Home, FAQ, Ethical AI use, and Analogy) each containing its own informations. 
 
-3. Instructions on how to run the project - 
+3. Instructions on how to run the project - Copy deployed project link and paste on browser. I think it should work as intended once step(s) are followed.
    
-5. Frameworks/libraries used - I tried using bootstrap but I decided against it. I mostly watched Youtube videos especially with how accordios worked and here are the links for some:
+5. Frameworks/libraries used - I tried using bootstrap but I decided against it. I mostly watched Youtube videos especially with how accordions worked and here are the links for some:
    
 https://youtu.be/CncKGaw2w2g?si=DclJ2lTWRmIGgp5F
 https://youtu.be/IO6vspLj1x0?si=ODVyHIbd6rSL4WZY
